@@ -3,7 +3,7 @@
 function findTwoNumbers(givenSortedArray,targetValue) {
 
     for (i = 0; i < givenSortedArray.length; i++) {
-        if (givenSortedArray[i] + givenSortedArray[i+1] === tt) {
+        if (givenSortedArray[i] + givenSortedArray[i+1] === targetValue) {
             return [i,i+1]
             break;
         }
