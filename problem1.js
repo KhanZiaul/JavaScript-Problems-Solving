@@ -11,6 +11,6 @@ function stringReverse(string) {
     return joinReverseSplitString;
 }
 
-const result = stringReverse('khan zia')
+const result = stringReverse('hello world')
 
 console.log(result)
