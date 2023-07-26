@@ -1,6 +1,11 @@
 // Write a JavaScript program to find the most frequent element in an array and return it. 
 
 function mostFrequentElement(givenArray) {
+
+    if (!Array.isArray(givenArray) || givenArray.length === 0) {
+        return ("The input must be a non-empty array")
+    }
+
     let itemsMap = {};
     let maximumValue = 0;
     let maximumCount = 0;
